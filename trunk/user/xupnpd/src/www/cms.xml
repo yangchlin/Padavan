@@ -7,10 +7,10 @@
   </specVersion>
   <actionList>
     <action>
-      <name>GetCurrentConnectionInfo</name>
+      <name>获取当前连接信息</name>
       <argumentList>
         <argument>
-          <name>ConnectionID</name>
+          <name>连接ID</name>
           <direction>in</direction>
           <relatedStateVariable>A_ARG_TYPE_ConnectionID</relatedStateVariable>
         </argument>
@@ -20,39 +20,39 @@
           <relatedStateVariable>A_ARG_TYPE_RcsID</relatedStateVariable>
         </argument>
         <argument>
-          <name>AVTransportID</name>
+          <name>AV传输ID</name>
           <direction>out</direction>
           <relatedStateVariable>A_ARG_TYPE_AVTransportID</relatedStateVariable>
         </argument>
         <argument>
-          <name>ProtocolInfo</name>
+          <name>协议信息</name>
           <direction>out</direction>
           <relatedStateVariable>A_ARG_TYPE_ProtocolInfo</relatedStateVariable>
         </argument>
         <argument>
-          <name>PeerConnectionManager</name>
+          <name>对等连接管理器</name>
           <direction>out</direction>
           <relatedStateVariable>A_ARG_TYPE_ConnectionManager</relatedStateVariable>
         </argument>
         <argument>
-          <name>PeerConnectionID</name>
+          <name>对等连接ID</name>
           <direction>out</direction>
           <relatedStateVariable>A_ARG_TYPE_ConnectionID</relatedStateVariable>
         </argument>
         <argument>
-          <name>Direction</name>
+          <name>方向</name>
           <direction>out</direction>
           <relatedStateVariable>A_ARG_TYPE_Direction</relatedStateVariable>
         </argument>
         <argument>
-          <name>Status</name>
+          <name>状态</name>
           <direction>out</direction>
           <relatedStateVariable>A_ARG_TYPE_ConnectionStatus</relatedStateVariable>
         </argument>
       </argumentList>
     </action>
     <action>
-      <name>GetProtocolInfo</name>
+      <name>获取协议信息</name>
       <argumentList>
         <argument>
           <name>Source</name>
